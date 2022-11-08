@@ -1,0 +1,6 @@
+name: 'Custom Timezone'
+type: module
+description: 'Allows user to select specifice timezone and display it in block'
+core_version_requirement: ^8 || ^9
+package: 'Custom'
+configure: customtimezone.settings_form
