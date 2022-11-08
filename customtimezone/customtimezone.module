@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains customtimezone module hooks.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function customtimezone_theme() {
+
+  return [
+    'cstimezone' => [
+      'variables' => [
+        'cstime' => NULL,
+      ],
+    ],
+  ];
+}

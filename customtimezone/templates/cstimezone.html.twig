@@ -1,0 +1,20 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a Custom Time Zone.
+ *
+ * Available variables:
+ * - cstime: Custom time zone array.
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div>Time format given in Implementation details</div>
+<div>{{ cstime.formated_date }}</div>
+<hr>
+<div>Time format as per given image</div>
+<h2>{{ cstime.only_time }}</h2>
+<div>{{ cstime.only_date }}</div>
+<div>Time in {{ cstime.city }} , {{ cstime.country }}</div>
+

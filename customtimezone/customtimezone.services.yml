@@ -1,0 +1,4 @@
+services:
+  customtimezone.cstimezone:
+    class: Drupal\customtimezone\GetTimeDetailService
+    arguments: ['@config.factory']
